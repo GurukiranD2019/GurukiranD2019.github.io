@@ -349,7 +349,7 @@ textarea {
     width: 100%;
     display: block;
     object-fit: cover; 
-    opacity: 0.7;}
+    opacity: 0.85;}
 
   
     .projects__row-img:hover{
@@ -464,7 +464,7 @@ textarea {
 
 .project-cs-hero1 {
   color: rgb(255, 255, 255);
-  background-image:url(../assets/jpeg/project.jpg); 
+  background-image:url(../assets/jpeg/audit.jpg); 
   background-size: cover;
   background-position: center;
   position: relative; }
