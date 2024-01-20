@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Covid-19 Classification</title>
+    <meta name="description" content="Know More about Covid-19 Classification" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel = "icon" href = "assets/jpeg/logo.png" type = "image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          
+          <span class="header__logo-sub">Skillfolio</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+
+
+
+    <section class="project-cs-hero3" >
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Classification of Covid-19 & Pneumonia using <br>Chest X-ray image </h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            A ML based web application that takes X-ray image input from user and generates a report that specifies percentage of Covid-19,Pneumonia or normal,infection score based on Hazziness of the lungs.
+          </p>
+          <br>
+          <br>
+          <br>
+        </div>
+
+        <!--
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+        -->
+
+      </div>
+    </section>
+
+<!-- Main Description-->
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/fyp/pic1.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Abstract</h3>
+              <p class="project-details__desc-para">
+                This project was assigned to us as a team as our final year project.So we decided to come up with the system which 
+                could take chest X-ray image as input and classify whether the person is suffering from Covid-19 / Pneumonia or normal based on 
+                infection score. 
+                <br>
+                <br>
+                Since this disease is also new that was not encountered before it’s always good to have a second opinion on the diagnosis. So, we have ensured that the technology we implement is user-friendly and which can help the doctors to the maximum, thereby ensuring proper diagnosis and reduced time.
+                <br>
+                <br>
+              </p>
+
+              <h3 class="project-details__content-title">Motivation</h3>
+
+              <p class="project-details__desc-para">
+                The traditional methods of examining the reports physically is time consuming and chances of missing out smaller details are more. In the present world, Image Processing in the medical field has a significant impact in making the job of medics easy. To make this job easy it is expected to have an automated system for medical image analysis related Covid-19.
+              </p>
+              <br>
+
+              <h3 class="project-details__content-title">Methodology</h3>
+
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/train.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              <p class="project-details__desc-para">
+                A grayscale X-ray image serves as the input. After creating 12 color spaces of the entire dataset a deep learning model is trained on each of these colorspaces. Various pretrained models are used to train on these colorspaces. The best model is identified based on certain metrics like accuracies and losses and can be used to diagnose the results for test images. Each model is to be trained for 30 epochs, with 100 steps.
+              </p>
+              <br>
+
+
+              
+
+              <h3 class="project-details__content-title">Portal Summary</h3>
+
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic2.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              
+              
+
+              <p class="project-details__desc-para">
+                The above images is represents a front-end page demonstrating our work.The front end is essential in creating a connection between the backend and the user because it is difficult for any user to comprehend or connect with backend functionality.
+                In order to develop a web application that is more user-friendly and, most importantly, allows us to add information relevant to either project or any information at all, we are using streamlit in  this project. We can add information about COVID/Pneumonia or how it might be diagnosed, how it might be detrimental, or symptoms related to COVID/Pneumonia because the issue is related to identifying an illness using a chest X-ray. Starting with our front end, we kept it as simple as possible. The Main page consists of the Title of our project followed by a tagline. Then we split the website into 4 subsections to make it better and classify. This navigation bar also acts as search bar.
+
+                <br>
+                <br>
+                1. Home Page
+                <br>
+                2. Tutorial Page
+                <br>
+                3. Diagnosis Page
+                <br>
+                4. About Us Page
+                <br>
+                <br>
+              </p>
+
+              <h4 class="project-details__content-title">Home Page</h4>
+
+              <p class="project-details__desc-para">
+                The fundamental information about the diseases is provided on the home page, including details on the symptoms, causes, and effects of the pneumonia and coronavirus disorders. as well as how it impacts the lungs. According to their X-ray report focusing on the diseased areas in their lungs, we have divided it into 2 pieces to make it more understandable, detailing the covid and pneumonia. We have also included an overview of diagnosis and its significance, which explains why it is important to diagnose any illness and how to do so in order to eventually reduce the spread of any illness.
+
+              </p>
+              <br>
+
+
+              <h4 class="project-details__content-title">Instructions Page</h4>
+
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic3.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              
+
+              <p class="project-details__desc-para">
+                The fundamental information about the diseases is provided on the home page, including details on the symptoms, causes, and effects of the pneumonia and coronavirus disorders. as well as how it impacts the lungs. According to their X-ray report focusing on the diseased areas in their lungs, we have divided it into 2 pieces to make it more understandable, detailing the covid and pneumonia. We have also included an overview of diagnosis and its significance, which explains why it is important to diagnose any illness and how to do so in order to eventually reduce the spread of any illness.
+              </p>
+              <br>
+
+              <h4 class="project-details__content-title">Diagnosis Page</h4>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic4.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+
+              
+
+              <p class="project-details__desc-para">
+                Our project's primary page that communicates to the backend is located here. Users can upload a patient's X-ray image on the diagnosis page. Users can only upload one image to this feature, which is limited to 200MB in size. The primary functional component of the project is this page. We have a Scan & Run button that, when clicked after the image has finished uploading, causes the image to be processed using the datasets on the backend. A report of the X-ray is produced in PDF format. The opacity score of the lungs is displayed automatically in a patient report in pdf format.
+              </p>
+              <br>
+
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic5.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+
+              <h4 class="project-details__content-title">About Us </h4>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic6.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+
+              
+                <p class="project-details__desc-para">
+                  This is a static page that informs the users about its developers.
+                </p>
+                <br>
+              
+              <br>
+
+              <h4 class="project-details__content-title">Report </h4>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic7.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              <p class="project-details__desc-para">
+                Once the user uploads and an image, the model scans the image and records the observations in a pdf file. Then this pdf file is automatically downloaded into the user's downloads directory. This file will be named as “Patient Report_ (date and time of report generation).pdf”. This pdf is designed using the streamlit module explained in section 5.5.4 of this report. Using streamlit the structure of the report is predefined. This pdf can be divided into 3 sections. 
+First section has the image that user has given and followed by the confidence scores of disease. 
+Second section has two sub sections. These two sub sections have four random patches of both left and right lung. To generate these patch, lung segmentation takes place in the background. This segmentation is designed using a lung segmentation model designed using PyTorch. Soon after the classification model gives the confidence sores, the segmentation of lung takes places. This lung segmentation is derived in terms of a mask and not actual image. This mask is then given to opencv contour function. The contour function creates a boundary on the masks. Later by analyzing the mask size, a point polygon test is conducted. This test analyses the position of the point and consider only the points inside the lung segment. These points are defined as patches. Each patch has the size, 35px x 35px. For each patch, the haziness is calculated. In the same manner the haziness is calculated for both the lung and for all positive patches. To give out the final opacity score, an average of opacity score of both lungs is calculated. 
+
+
+              </p>
+              <br>
+
+              <h4 class="project-details__content-title">Results </h4>
+              <p class="project-details__desc-para">
+               The following Observations were made.
+               <br>
+               <br>
+               1. Most of the models don’t require more than 20 epochs for training
+               <br>
+               2. Most of the models eventually converge to have:
+               <br>
+               <br><strong>
+                  - Validation accuracy of 94 - 95% <br>
+                  - Training accuracy of 98 - 99% <br>
+                  - Validation loss of around 20 - 30% <br>
+                  - Training loss of 98 - 99% <br></strong>
+               <br>
+               3. <strong>DenseNet169</strong> with  <strong>COLORMAP_PINK</strong> performed the best with accuracy of <strong>95.34%</strong> with least loss of <strong>21.14%</strong>.
+              </p>
+              <br>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/fyp/pic8.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              
+              
+                <p class="project-details__desc-para">
+                  Currently the project files are not available.<br>For more detailed explaination refer the below attachments provided.
+                </p>
+                <br>
+
+
+
+            
+
+
+
+
+<!-- End of Project Content-->
+
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tech Stack</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">pytorch</div>
+                <div class="skills__skill">Tensorflow</div>
+                <div class="skills__skill">Streamlit</div>
+                <div class="skills__skill">ReportLab</div>
+                
+                <div class="skills__skill">Preprocessing</div>
+                <div class="skills__skill">Transfer Learning</div>  
+              </div>
+            </div>
+
+
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">pre trained ML Models</h3>
+              <div class="skills">
+                <div class="skills__skill">VGG-19</div>
+                <div class="skills__skill">Resnet-50</div>
+                <div class="skills__skill">Dense-Net 121 </div>
+                <div class="skills__skill">Dense-Net 169</div>
+                <div class="skills__skill">Dense-Net 201</div>
+                <div class="skills__skill">Xception</div>
+                <div class="skills__skill">Inception V3</div>
+                <div class="skills__skill">Inception ResNet V2 </div>
+                <div class="skills__skill">MobileNet V2</div>
+
+              </div>
+            </div>
+
+
+
+
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools</h3>
+              <div class="skills">
+                <div class="skills__skill">PyCharm</div>
+                <div class="skills__skill">Visual Studio Code</div>
+                <div class="skills__skill">Dataset(14952 Images)</div>
+                <div class="skills__skill">Google Colab</div>
+
+              </div>
+            </div>
+
+
+
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Know More</h3>
+              <a
+                href="https://docs.google.com/presentation/d/1WkK-Da9V7MSX-HgkGnVflKSJswsWYeja/edit#slide=id.p1"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >PPT</a>
+
+              <a
+              href="https://docs.google.com/document/d/1MYAM8_s6d_EY6TtWfk-9824riUnqbWhgBrORnaLN8a4/edit"
+              class="btn btn--med btn--theme-inv project-details__links-btn"
+              target="_blank"
+              >Detailed Report</a>
+              
+              <a
+                href="index.html"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Go Back</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+
+    
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gurukiran-d-192362194/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/GurukiranD2019?tab=repositories">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://open.spotify.com/user/31jhgkoplmoikfbohql52egftuj4?si=23422141c3764603">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/Spotify.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCniKso44B07Qbn_bNr8wmVQ">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://instagram.com/astrophilic_spirit_._?igshid=ZDdkNTZiNTM=">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Gurukiran D</h4>
+            <p class="main-footer__short-desc">
+              Contact :<strong> +91 8310984353<strong></strong><br>
+              Email :<strong>gurukiran.dayanand@gmail.com</strong> 
+            </p>
+          </div>
+        </div>
+
+        
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href=""
+            >Gurukiran D</a
+          >
+        </div>
+
+
+      </div>
+    </footer>
+
+
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
